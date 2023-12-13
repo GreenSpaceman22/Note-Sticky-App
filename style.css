@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+#body_box {
+    position: relative;
+}
+p {
+    position: relative;
+    margin: 50px;    
+    padding: 0.75em;
+    display: flex;
+    flex-direction: column;
+}
