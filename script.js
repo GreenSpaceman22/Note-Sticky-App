@@ -31,7 +31,7 @@ function paraMaker() {
       paragraph_container.appendChild(newParagraph)
 
       newParagraph.innerText = "Post: " + newTextBox.value     
-    
+      newTextBox.value = ""
     })
     
     parseFloat.innerText =  userInput  
