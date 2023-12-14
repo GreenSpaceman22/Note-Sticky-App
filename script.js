@@ -48,6 +48,8 @@ function paraMaker() {
       newSticky.appendChild(edit_submit)
       edit_submit.addEventListener("click", function () {
         newPara.innerText = edit_input.value
+        edit_submit.remove()
+        edit_input.remove()
       })
 
       })
