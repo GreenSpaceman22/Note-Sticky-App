@@ -7,10 +7,17 @@
 #body_box {
     position: relative;
 }
-p {
+#newSticky {
     position: relative;
-    margin: 50px;    
-    padding: 0.75em;
+    margin: 100px; 
+    padding: 50px;
     display: flex;
+    
+    
     flex-direction: column;
+    
+}
+#edit_input {
+    display: flex;
+    justify-content: end;
 }
